@@ -1,0 +1,208 @@
+body {
+  margin : 0 ;
+  text-align: center;
+  font-family: sans-serif;
+  color: #40514E
+}
+
+.top-container {
+  background-color: #867AE9 ;
+  position:relative;
+  padding-top: 100px; /*adds a padding ot the top of th econtainer pushing everything down */
+
+}
+
+h1 {
+  margin: 0 auto -10px auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem; /* 16px = 100% = 1em rem = root em. will not inherit font size from parents */
+  color: #B6C9F0;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Cormorant SC', serif;
+  font-size: 2.2rem;
+  color: #867AE9;
+  font-weight: bolder;
+
+}
+
+h3 {
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.4rem;
+  color: #867AE9;
+  font-weight: lighter;
+}
+
+hr {
+  border-style: dotted none none ;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 15%;
+  margin: 55px auto 55px auto;
+  clear: left;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+
+
+.programmer_text {
+  color: #B6C9F0;
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: relative;
+  left: 20%;
+  bottom: 50px;
+}
+
+.wave-img {
+  margin: 25px auto 25px auto;
+  width: 30%;
+
+}
+
+
+.bottom-cloud { /* centering an image// change to Block element and change margin left and right to auto*/
+  position: absolute;
+  left: 10%;
+
+
+}
+
+.sun_cloud {
+  position : absolute;
+  right: 150px;
+  margin:-100px;
+  max-width: 15%; /* resizing image in css use with height : auto */
+  height:auto;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  background-color: #867AE9;
+  padding-bottom: 25px;
+}
+.selfie_img {
+  max-width: 25%;
+  height: auto;
+  padding-top: 25px;
+}
+
+.sleep-icon {
+  max-width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.basketball-icon {
+  width: 21%;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+}
+
+.coding {
+  width: 20%;
+  float: right;
+  margin-left: 5px;
+  height: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  padding-bottom: 30px;
+
+}
+
+.contact-hr {
+  margin: -50px auto 50px auto;
+}
+
+.contact-description {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.btn {
+  margin: 25px auto 15px auto;
+   background: #867AE9;
+   background-image: -webkit-linear-gradient(top, #867AE9, #867AE9);
+   background-image: -moz-linear-gradient(top, #867AE9, #867AE9);
+   background-image: -ms-linear-gradient(top, #867AE9, #867AE9);
+   background-image: -o-linear-gradient(top, #867AE9, #867AE9);
+   background-image: -webkit-gradient(to bottom, #867AE9, #867AE9);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #B6C9F0;
+   font-family: 'Cormorant SC', serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #B6C9F0;
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.footer-link:hover {
+  color: #1E62D0;
+}
+
+.author-name {
+  color: #B6C9F0;
+}
